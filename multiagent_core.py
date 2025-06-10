@@ -1,7 +1,7 @@
 import json
 from datetime import datetime, date
 from dataclasses import dataclass
-from typing import Dict, List, Optional
+from typing import Dict, List
 from pathlib import Path
 
 # Data path definition

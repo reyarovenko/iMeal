@@ -1,4 +1,4 @@
-# main.py - Fixed version
+# main.py
 import os
 import logging
 from typing import Dict, List
