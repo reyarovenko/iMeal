@@ -1,11 +1,11 @@
 # Nutrition Tracker Bot
 
-A multi-agent Telegram bot for tracking daily nutrition and getting personalized dietary recommendations. The bot uses AI to analyze food intake and provide KBJU (Calories, Proteins, Fats, Carbohydrates) calculations.
+A multi-agent Telegram bot for tracking daily nutrition and getting personalized dietary recommendations. The bot uses AI to analyze food intake and provide Calories, Proteins, Fats, Carbohydrates calculations.
 
 ##  Features
 
 - **Food Analysis**: AI-powered food recognition and nutritional analysis
-- **Daily Tracking**: Track your daily meals with detailed KBJU breakdown
+- **Daily Tracking**: Track your daily meals with detailed CPFC breakdown
 - **Calorie Calculator**: Calculate your daily calorie needs based on personal data
 - **Smart Recommendations**: Get personalized nutrition advice based on your eating patterns
 - **Easy Management**: Add and delete meals with intuitive button interface
