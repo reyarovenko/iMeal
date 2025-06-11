@@ -27,7 +27,8 @@ except ImportError:
             "protein": 0,
             "fat": 0,
             "carbs": 0,
-            "analysis": "❌ GPT недоступен. Требуется настройка OpenAI API" if lang == "uk" else "❌ GPT unavailable. OpenAI API setup required"
+            "analysis": "❌ GPT недоступний. Необхідно налаштувати OpenAI API"
+            if lang == "uk" else "❌ GPT unavailable. OpenAI API setup required"
         }
 
 
@@ -147,7 +148,8 @@ class AnalystAgent(SimpleAgent):
     async def add_meal(self, user_id: int, meal_desc: str, lang: str):
         try:
             if not USE_ORIGINAL_FUNCTIONS:
-                error_msg = "❌ GPT недоступен. Потрібен OpenAI API ключ" if lang == "uk" else "❌ GPT unavailable. OpenAI API key required"
+                error_msg = "❌ GPT недоступний. Потрібен OpenAI API ключ" \
+                    if lang == "uk" else "❌ GPT unavailable. OpenAI API key required"
                 return {"status": "error", "message": error_msg}
 
             kbju = estimate_kbju(meal_desc, lang)

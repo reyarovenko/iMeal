@@ -1,17 +1,17 @@
 {
   "291371633": {
-    "age": 33,
+    "age": 34,
     "gender": "female",
-    "weight": 53.0,
+    "weight": 55.0,
     "height": 165,
     "activity_coefficient": 1.55,
     "calories": {
-      "bmr": 1255,
-      "total": 1946,
-      "maintain": 1946,
-      "lose": 1646,
-      "gain": 2246
+      "bmr": 1250,
+      "total": 1938,
+      "maintain": 1938,
+      "lose": 1638,
+      "gain": 2238
     },
-    "updated_at": "2025-06-10T23:41:25.498620"
+    "updated_at": "2025-06-11T02:18:07.099787"
   }
 }
